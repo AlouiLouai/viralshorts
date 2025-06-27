@@ -1,3 +1,4 @@
+"use client";
 import Head from 'next/head';
 // Component Imports
 import Header from '@/components/Header';

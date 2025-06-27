@@ -1,4 +1,4 @@
-import NextImage from 'next/image'; // Renamed to avoid conflict if Image is used as a local variable
+import NextImage from 'next/image';
 
 interface UserProfileAvatarProps {
   imageUrl: string;
