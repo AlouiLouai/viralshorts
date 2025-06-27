@@ -1,3 +1,5 @@
+'use client';
+
 import NavigationLink from './NavigationLink';
 import IconButton from './IconButton';
 import UserProfileAvatar from './UserProfileAvatar';

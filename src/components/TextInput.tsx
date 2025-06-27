@@ -1,3 +1,5 @@
+'use client';
+
 interface TextInputProps {
   placeholder: string;
   // Using defaultValue for uncontrolled component as per original implementation
