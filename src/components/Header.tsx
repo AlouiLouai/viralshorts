@@ -47,14 +47,6 @@ interface HeaderProps {
   // Add any other props like onThemeToggle, onNotificationClick if functionality is added
 }
 
-const navItems = [
-  { href: "#", text: "Dashboard" },
-  { href: "#", text: "Content" },
-  { href: "#", text: "Analytics" },
-  { href: "#", text: "Comments" },
-  { href: "#", text: "Subtitles" },
-  { href: "#", text: "Copyright" },
-];
 
 const Header: React.FC<HeaderProps> = ({ userAvatarUrl }) => {
   return (
@@ -66,11 +58,6 @@ const Header: React.FC<HeaderProps> = ({ userAvatarUrl }) => {
         <h2 className="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Shorts Analyzer</h2>
       </div>
       <div className="flex flex-1 justify-end gap-8">
-        <div className="flex items-center gap-9">
-          {navItems.map((item) => (
-            <NavigationLink key={item.text} href={item.href} text={item.text} />
-          ))}
-        </div>
         <div className="flex gap-2">
           <IconButton ariaLabel="Toggle theme">
             <SunIcon />
